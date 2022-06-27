@@ -25,8 +25,8 @@
         $('#sa-success').click(function () {
             swal(
                 {
-                    title: 'Good job!',
-                    text: 'You clicked the button!',
+                    title: 'Kayýt Basarili!',
+                    text: 'butgem kutuphane!',
                     type: 'success',
                     showCancelButton: true,
                     confirmButtonClass: 'btn btn-success',
@@ -34,6 +34,18 @@
                 }
             )
         });
+
+        function tamam() {
+            Swal.fire({
+                /*position: 'top-end',*/
+                icon: 'success',
+                title: 'Kayýt Baþarýlý',
+                showConfirmButton: false,
+                timer: 1500
+            }).then(function () {
+                window.location = "default.aspx";
+            });
+        }
 
         //Error Message
         $('#sa-error').click(function () {

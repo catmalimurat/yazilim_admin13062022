@@ -641,6 +641,7 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Db.cs" />
     <Compile Include="index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -655,6 +656,8 @@
     <Compile Include="mekle.aspx.designer.cs">
       <DependentUpon>mekle.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Musteri.cs" />
+    <Compile Include="MusteriCRUD.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site1.Master.cs">
       <DependentUpon>Site1.Master</DependentUpon>

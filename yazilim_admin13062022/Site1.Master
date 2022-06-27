@@ -6,7 +6,7 @@
 <head runat="server">
     <meta charset="utf-8">
 	<title>YAZILIM UZMANLIĞI YÖNETİM PANELİ</title>
-
+	<link rel="stylesheet" type="text/css" href="src/plugins/sweetalert2/sweetalert2.css">
 	<!-- Site favicon -->
 	<link rel="apple-touch-icon" sizes="180x180" href="vendors/images/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="vendors/images/favicon-32x32.png">
@@ -268,13 +268,13 @@
 					<li class="dropdown">
 						<a href="javascript:;" class="dropdown-toggle">
 							
-							<span class="micon icon-copy fa fa-drivers-license-o"></span><span class="mtext">Müşteriler</span>
+							<span class="micon icon-copy fa fa-drivers-license-o"></span><span class="mtext">Okuyucu</span>
 						</a>
 						<ul class="submenu">
-							<li><a href="mekle.aspx">Müşteri Ekle</a></li>
-							<li><a href="form-basic.html">Müşteri Listele</a></li>
-							<li><a href="form-basic.html">Müşteri Güncelle</a></li>
-							<li><a href="form-basic.html">Müşteri Sil</a></li>
+							<li><a href="mekle.aspx">Okuyucu Ekle</a></li>
+							<li><a href="form-basic.html">Okuyucu Listele</a></li>
+							<li><a href="form-basic.html">Okuyucu Güncelle</a></li>
+							<li><a href="form-basic.html">Okuyucu Sil</a></li>
 							<%--<li><a href="form-basic.html">Form Basic</a></li>
 							<li><a href="advanced-components.html">Advanced Components</a></li>
 							<li><a href="form-wizard.html">Form Wizard</a></li>
@@ -471,5 +471,32 @@
 	<script src="src/plugins/datatables/js/dataTables.responsive.min.js"></script>
 	<script src="src/plugins/datatables/js/responsive.bootstrap4.min.js"></script>
 	<script src="vendors/scripts/dashboard.js"></script>
+	<!-- add sweet alert js & css in footer -->
+	<script src="src/plugins/sweetalert2/sweetalert2.all.js"></script>
+	<script src="src/plugins/sweetalert2/sweet-alert.init.js"></script>
+
+
+	<script src="assets/libs/jquery/dist/jquery.min.js"></script>
+	<script src="assets/libs/Headhesive.js/dist/headhesive.min.js"></script>
+	<script src="assets/libs/slideout.js/dist/slideout.min.js"></script>
+	<link rel="stylesheet" href="assets/libs/magnific-popup/dist/magnific-popup.css">
+	<script src="assets/libs/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
+	<script src="assets/libs/youtubeBackground.min/build/jquery.youtubebackground.min.js"></script>
+	<script src="assets/libs/vide/dist/jquery.vide.min.js"></script>
+	<script src="assets/libs/social-sharing-buttons/social-buttons.js"></script>
+	<link rel="stylesheet" href="assets/libs/social-sharing-buttons/social-buttons.css">
+	<script src="assets/libs/mixitup/build/jquery.mixitup.min.js"></script>
+	<script src="assets/libs/isMobile/isMobile.min.js"></script>
+	<script src="assets/libs/isInViewport/lib/isInViewport.min.js"></script>
+	<script src="assets/libs/progressbar.js/dist/progressbar.min.js"></script>
+	<script src="assets/libs/select2/dist/js/select2.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+	<script src="assets/libs/tabby/dist/js/tabby.min.js"></script>
+	<script src="assets/libs/blueimp-file-upload/js/vendor/jquery.ui.widget.js"></script>
+	<script src="assets/libs/blueimp-file-upload/js/jquery.iframe-transport.js"></script>
+	<script src="assets/libs/blueimp-file-upload/js/jquery.fileupload.js"></script>
+	<script src="assets/libs/slick-carousel/slick/slick.min.js"></script>
+	<link rel="stylesheet" href="assets/libs/slick-carousel/slick/slick.css">
+	<script src="assets/scripts/main.js"></script>
 </body>
 </html>
